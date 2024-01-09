@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sjakaev/messenger#readme",
   "devDependencies": {
+    "typescript": "^5.3.3",
     "vite": "^5.0.11"
   }
 }
