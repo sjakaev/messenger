@@ -9,10 +9,6 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(process.cwd(), 'dist', 'index.html'));
 });
 
-app.get('/login', (req, res) => {
-    res.sendFile(path.join(process.cwd(), 'dist', 'src', 'pages', 'login', 'index.html'));
-});
-
 app.listen(PORT, function () {
   console.log(`Example app listening on port ${PORT}!`);
 });

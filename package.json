@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "start": "node server.js"
+    "start": "vite build && node server.js"
   },
   "repository": {
     "type": "git",

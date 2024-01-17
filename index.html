@@ -2,13 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.scss">
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">Vite + TS!</div>
-    <h1 class="heading">{{title}}</h1>
     <ol>
       <li>
         <a page='login' href="/login">Login</a>
@@ -23,12 +21,15 @@
         <a page='user-settings' href="/user-settings">User Settings</a>
       </li>
       <li>
-        <a page='404' href="src/pages/404/index.html">Error 404</a>
+        <a page='error404' href="/error404">Error 404</a>
       </li>
       <li>
-        <a page='500' href="src/pages/500/index.html">Error 5**</a>
+        <a page='error500' href="/error500">Error 5**</a>
       </li>
     </ol>
-    <script type="module" src="main.ts"></script>
+    <br>
+    <div id="app"></div>
+
+    <script type="module" src="./src/main.ts"></script>
   </body>
 </html>

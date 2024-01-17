@@ -1,3 +1,37 @@
-.login-container {
-    background-color: red;
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    padding: 50px 30px 30px 30px;
+}
+
+.login {
+    &__title {
+        color: #333;
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 0 20px 0;
+    }
+
+    &__input {
+        margin-bottom: 15px;
+    }
+
+    &__card-footer {
+        text-align: left;
+        margin-top: 14px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    &__card-footer-link {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }

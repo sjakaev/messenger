@@ -1,19 +1,13 @@
-<div class="container">
-    <main class="login-form">
-        login + {{ info }}}
-        <div class="login-container">
-            <form action="/login" method="post">
-                <div class="form-group">
-                    <label for="login">Login</label>
-                    <input type="text" id="login" name="login" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <button type="submit">{{login.submitText}}</button>
-                <p>Ещё не зарегистрированы? <a href="/register">{{registerLinkText}}</a></p>
-            </form>
+<main class="card">
+    <div class="login">
+        <h1 class="login__title">Вход</h1>
+        <form>
+            {{> Input value="roman3000" name="login" type="text" placeholder="Login" class="login__input"}}
+            {{> Input value="roman3001" name="password" type="password" placeholder="Password" class="login__input"}}
+            {{> Button page="chat" class="login__button" type="submit" text="Авторизоваться" }}
+        </form>
+        <div class="login__card-footer">
+            <a page='register' class="login__card-footer-link" href="#">Нет аккаунта?</a>
         </div>
-    </main>
-</div>
+    </div>
+</main>
