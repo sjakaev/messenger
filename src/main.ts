@@ -1,4 +1,4 @@
-import './assets/style.scss';
+import './style.scss';
 import Handlebars from "handlebars";
 import * as Pages from './pages';
 import * as Components from './components';
