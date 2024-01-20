@@ -1,9 +1,6 @@
 # Messenger
 The project is a messenger that allows you to exchange messages between users.
 
-## About the Application
-This Messenger app is an innovative platform designed to enhance communication by allowing users to create profiles and exchange messages seamlessly. It's a space where conversations come to life, connecting individuals across the globe.
-
 ## Design Mockups
 You can view the design of the application here - [Figma Design](https://www.figma.com/file/xfAVIutsi8BjZiuCPgpHxC/Chat_external_link?type=design&mode=design&t=SRZHPtClDfLOcBxf-1)
 
